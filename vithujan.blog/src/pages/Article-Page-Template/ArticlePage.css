@@ -1,0 +1,167 @@
+.bi-article-navbar > .bi-navbar{
+    position: absolute;
+    background: none;
+}
+
+.bi-article-page-hero-banner{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.bi-article-page-hero-banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom,#0a0f27cc, #0a0f2780);
+}
+
+
+.bi-article-page-title{
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.083vw;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.5vw;
+}
+
+.bi-article-page-editor-name{
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: #E5E5E5;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 0.78125vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.302vw;
+}
+
+/* Article page main part, text-part, your className should be the same as this */
+
+.bi-article-main-part{
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    overflow: hidden;
+}
+
+.bi-article-main-part > *{
+    margin-left: 13.802083333333334vw;
+    margin-right: 13.802083333333334vw;
+}
+
+.bi-article-main-details{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+}
+
+.bi-article-main-date{
+    color: #6C757D;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 0.78125vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height:  1.302vw; /* 166.667% */
+}
+
+.bi-article-main-author{
+    color: #6C757D;
+    font-family: Poppins;
+    font-size: 0.78125vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.302vw; /* 166.667% */
+}
+
+.bi-article-main-subtitle{
+    width: 26.0416vw;
+    margin-bottom: 40px;
+    color: #212529;
+    font-family: Poppins;
+    font-size: 1.6276vw;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.60416vw; /* 160% */
+}
+
+.bi-article-main-text-p{
+    margin-bottom: 40px;
+    text-align: justify;
+    margin-bottom: 80px;
+    color: #6C757D;
+    font-family: Poppins;
+    font-size: 0.9114583vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6276041vw;
+}
+
+.bi-article-main-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 82px;
+    width:  80.729166vw;
+    height: 400px;
+}
+
+@media screen and (max-width:428px) {
+    .bi-article-page-title{
+        top: 30%;
+        font-size: 32px;
+        letter-spacing: 7.68px;
+    }
+
+    .bi-article-page-editor-name{
+        top: 30%;
+        font-size: 12px;
+        line-height: 20px; /* 166.667% */
+    }
+
+    .bi-article-main-part{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bi-article-main-details{
+        justify-content: space-evenly;
+        margin-bottom: 8px;
+    }
+
+    .bi-article-main-date, .bi-article-main-author{
+        font-size: 12px;
+        line-height: 20px; /* 166.667% */
+    }
+
+    .bi-article-main-subtitle{
+        text-align: center;
+        width: 75%;
+        font-size: 18px;
+        line-height: 40px; /* 222.222% */
+        margin-bottom: 64px;
+    }
+
+    .bi-article-main-text{
+        font-size: 16px;
+        line-height: 30px; /* 187.5% */
+    }
+
+    .bi-article-main-img{
+        width: 100%;
+        height: 256px;
+        margin-bottom: 64px;
+    }
+}

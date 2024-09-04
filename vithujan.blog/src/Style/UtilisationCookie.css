@@ -1,0 +1,44 @@
+.bi-utilisation-cookie-none{
+    display: none;
+}
+
+.bi-utilisation-cookie{
+    position :fixed;
+    z-index: 5;
+    top: 15%;
+    left: 18%; 
+    width: 65.1041vw;
+    height: 71.2871vh;
+    border-radius: 32px;
+    background: #fff;
+    box-shadow: 0px 0px 0px 635px rgba(0, 0, 0, 0.5);
+}
+
+.bi-UT-paragraph-part{
+    margin: auto;
+    margin-top: 32px;
+    width: 53.125vw;
+    color: #6C757D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.bi-UT-button{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:  9.0523vh;
+    background: #12769E;
+    border: none;
+    border-bottom-left-radius: 32px;
+    border-bottom-right-radius: 32px;
+    color: #FFF;
+    font-family: Lora;
+    font-size: 2.0833vw;
+    font-weight: 700;
+    cursor: pointer;
+}

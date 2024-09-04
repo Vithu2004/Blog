@@ -1,0 +1,68 @@
+.bi-about-hero-banner{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background: url("../../Assets/hero-banner-buble-background.png");
+}
+
+.bi-about-hero-banner::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    background: linear-gradient(to bottom,#0a0f27cc, #0a0f2780);
+}
+
+
+.bi-about-title{
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 2.083vw;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.5vw;
+}
+
+.bi-about-main-text{
+    margin-top: 80px;
+    margin-bottom: 128px;
+}
+
+.bi-about-main-text > *{
+    margin-left: 20.3125vw;
+    margin-right:20.3125vw;
+}
+
+.bi-about-main-text-p{
+    text-align: justify;
+    margin-bottom: 40px;
+    color: #6C757D;
+    font-family: Poppins;
+    font-size: 0.9114583vw;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.6276041vw; /* 178.571% */
+}
+
+@media screen and (max-width:480px) {
+    .bi-about-title{
+        font-size: 32px;
+        letter-spacing: 7.68px;
+    }
+
+    .bi-about-main-text > *{
+        margin: 0 32px;
+    }
+
+    .bi-about-main-text-p{
+        font-size: 16px;
+        line-height: 30px; /* 187.5% */
+    }
+
+}

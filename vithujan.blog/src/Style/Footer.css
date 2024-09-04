@@ -1,0 +1,79 @@
+.bi-footer{
+    position: relative;
+    background: #EEE7E4;
+}
+
+.bi-footer-link-section{
+    margin: 0;
+    padding: 0;
+    padding-top: 64px;
+    height: 180px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: "Lora", serif;
+    font-size: 1vw;
+    font-weight: 700;
+    color: #000;
+}
+
+.bi-footer-item.publisher-title{
+    margin: 0;
+    padding: 0;
+    font-size: 1vw;
+}
+
+.bi-publisher-link{
+    color : #001952;
+    margin: 16px 0;
+    font-family: "Lora", serif;
+    font-weight: 400;
+    font-size: 0.78125vw;
+}
+
+.bi-footer-lines{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.bi-footer-link{
+    text-decoration: none;
+    color:  #000;
+}
+
+.bi-footer-line{
+    height: 128px;
+    width: 5px;
+    background: linear-gradient(to bottom, #EEE7E4, #043775, #EEE7E4);
+}
+
+@media screen and (max-width: 480px) {
+    .bi-footer-link-section{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        gap: 32px;
+        text-align: center;
+        font-size: 18px;
+        height: auto;
+    }
+
+    .bi-footer-item.publisher-title{
+        font-size: 18px;
+    }
+
+    .bi-publisher-link{
+        font-size: 14px;
+    }
+
+    .bi-footer-line{
+        height: 5px;
+        width: 328px;
+        background: linear-gradient(to right, #EEE7E4, #043775, #EEE7E4);
+    }
+
+    .bi-footer-link.unsub-newsletter{
+        margin-bottom: 64px;
+    }
+}

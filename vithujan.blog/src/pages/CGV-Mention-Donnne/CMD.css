@@ -1,0 +1,48 @@
+.bi-cmd{
+    margin-top:128px;
+    width: 100%;
+}
+
+.bi-cmd-paragraph{
+    width: 53.125vw;
+    margin-bottom: 28px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #6C757D;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.04166vw;
+    font-weight: 400;
+}
+
+.bi-cmd-list{
+    margin-bottom: 25px;
+    text-align: center;
+    color: #6C757D;
+    font-family: Poppins;
+    font-size: 1.04166vw;
+    font-weight: 400;
+}
+
+@media screen and (max-width : 480px){
+    .bi-cmd{
+        margin-top:96px;
+    }
+
+    .bi-cmd-paragraph{
+        width: 364px;
+        margin-bottom: 28px;
+        font-size: 16px;
+    }
+
+    .bi-cmd-list{
+        margin-bottom: 25px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width : 365px){
+    .bi-cmd-paragraph{
+        width: 250px;
+    }
+}

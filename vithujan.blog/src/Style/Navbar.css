@@ -1,0 +1,129 @@
+.bi-navbar-hamburger, .bi-nav-item-phone{
+    display: none;
+}
+
+.bi-navbar{
+    z-index: 5;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 64px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(to right, #12769E, #043775);
+    box-shadow: 0px 4px 80px 0px rgba(0, 0, 0, 0.50);
+}
+
+.bi-navbar-article-about{
+    z-index: 5;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 64px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bi-navbar-logo{
+    width: 32.6171875vw;
+    height:  4.809052333804809vh;
+}
+
+.bi-navbar-nav-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 48px;
+}
+
+.bi-navbar-nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.bi-nav-item{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 1.302vw;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.bi-navbar-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 32px;
+}
+
+.bi-icons-item-img{
+    filter :  drop-shadow(4px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+@media screen and (max-width:480px){
+    .bi-navbar{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .bi-hamburger-click{
+        display: inline-block;
+        width: 37px;
+        height: 22px;
+        background-image: url("../Assets/Hamburger-navbar.png");
+    }
+
+    .bi-navbar-hamburger, .bi-navbar-nav-icons{
+        display: none;
+    }
+
+    .bi-navbar-hamburger-open{
+        position: absolute;
+        top: 64px;
+        left: 0;
+        display: flex;
+        background: #12769E;
+        flex-direction: column;
+        align-items: center;
+        gap: 32px;
+        width: 80%;
+        height: 700px;
+        color: white;
+    }
+
+    
+    .bi-nav-item-phone{
+        display: inline-block;
+        text-decoration: none;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    
+    .bi-nav-item-phone.home{
+        margin-top: 50%;
+    }
+
+    .bi-navbar-logo{
+        width: 340px;
+    }
+}
+
+
+@media screen and (max-width:390px){
+    .bi-navbar-logo{
+        width: 250px;
+    }
+}

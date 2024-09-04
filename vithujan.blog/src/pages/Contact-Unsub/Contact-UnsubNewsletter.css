@@ -1,0 +1,104 @@
+.bi-CUN{
+    margin-top: 64px;
+}
+
+.bi-CUN-title{
+    text-align: center;
+    color: #000;
+    font-family: Poppins;
+    font-size: 2.60416vw;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0.625vw;
+}
+
+.bi-CUN-form{
+    margin-left: 12.5vw;
+    margin-right: 12.5vw;
+}
+
+.bi-CUN-form-item{
+    border: 3px solid #043775;
+    background: #FCF6F3;
+}
+
+.bi-CUN-form-item::placeholder{
+    padding-left: 32px;
+    color: #6C757D;
+    font-family: Lora;
+    font-size: 2.0833vw;
+    font-weight: 700;
+}
+
+.bi-CUN-form-item.name, .bi-CUN-form-item.email{
+    width: 33.333333vw;
+    height: 11.3154172vh;
+    margin-right: 32px;
+    margin-top: 48px;
+    margin-bottom: 32px;
+}
+
+.bi-CUN-form-item.email{
+    margin-right: 0;
+}
+
+.bi-CUN-form-item.phone{
+    width:  68.75vw;
+    height:  11.3154172vh;
+    margin-bottom: 32px;
+}
+
+.bi-CUN-form-item.message{
+    width:  68.75vw;
+    height:  28.571428vh;
+}
+
+.bi-CUN-form-item-button{
+    margin-top: 64px;
+    width: 16.666vw;
+    height:  9.0523vh;
+    border: none;
+    background: #12769E;
+    color: #FFF;
+    font-family: Lora;
+    font-size:  2.0833vw;
+    font-weight: 700;
+}
+
+@media screen and (max-width:480px) {
+    .bi-CUN-title{
+        font-size: 32px;
+        letter-spacing: 7.68px;
+        margin-bottom: 32px;
+    }
+
+    .bi-CUN-form{
+        margin: 0 10%;
+    }
+
+    .bi-CUN-form-item::placeholder{
+        font-size: 24px;
+    }
+    
+    .bi-CUN-form-item.name, .bi-CUN-form-item.email, .bi-CUN-form-item.phone{
+        width: 368px;
+        height: 40px;
+        margin-top: 0;
+        margin-bottom: 32px;
+    }
+
+    .bi-CUN-form-item.message{
+        width: 368px;
+        height: 435px;
+    }
+
+    .bi-CUN-form-item-button{
+        width: 256px;
+        height: 64px;
+        margin: 0 56px;
+        margin-top: 32px;
+        font-size: 32px;
+    }
+
+}

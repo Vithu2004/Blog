@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_articles_subtitles",
+  "info": {
+    "displayName": "Subtitles"
+  },
+  "options": {},
+  "attributes": {
+    "SubTitle": {
+      "type": "string"
+    }
+  }
+}
